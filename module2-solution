@@ -3,11 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name: "viewport" content= "width= device-width, inital scale= 1">
-<titel></titel>
-<link rel="stylesheet" href="Style.css"
+<titel>Our menu</titel>
+
 <Style>
 
-h1 }
-color: maroon;
+h1, h2, h3, h4{
+font-family:arial;
+color:pink;
+font-size:30px;
+font-style: bold
 }
-background-color: black;
+
+p{
+	font-family:arial;
+	color:blue;
+	font-size:20px;
+
+
+*{
+box-sizing:borderbox;
+
+</style>
+</head>
+<body>
+
+<h1>Our menu</h1>
+<h2>Chicken</h2>
+<p>Our chicken noodle soup is a varm treat with meat from free ranged birds.</p>
+<h3>Beef</h3>
+<p>If you are feeling a meaty dish, this beef noodel meal is a great choice with meat from a small scale farmer.</p>
+<h4>Vegetarian</h4>
+<p>Fresh ecological veggies with steaming hot noodles.</p>
+</body>
