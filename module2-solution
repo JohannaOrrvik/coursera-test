@@ -26,18 +26,42 @@ text-align:center;
 }
 
 p{
-	font-family:arial;
-	color:blue;
-   font-size:10px;
-   text-transform:lowercase;
-   text-align:center;
+background-color:brown;
+font-family:arial;
+color:blue;
+font-size:10px;
+text-transform:lowercase;
+text-align:center;
 
 	}
-
+.row {
+width:100%;
+}
 
 *{
 box-sizing:borderbox;
 color:brown;
+}
+
+@media (min-width:1200px and max-width:1199px) {
+.col-lg-3, .col-lg-3, .col-lg-3 {
+float:left;
+border:1px;
+
+}
+
+.col-lg-3 {
+width:33.33;
+}
+
+.col-lg-3{
+width:66.66;
+}
+
+.col-lg-3{
+ width:100%;
+}
+
 
 </style>
 </head>
