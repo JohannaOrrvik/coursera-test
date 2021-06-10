@@ -7,31 +7,48 @@
 
 <Style>
 
-h1, h2, h3, h4{
+h1 {
 font-family:arial;
 color:pink;
 font-size:30px;
-font-style: bold
+font-style:bold
+font-weight:300px;
+text-align:center;
+
+}
+
+h2, h3, h4{
+font-family:arial;
+color:pink;
+font-size:20px;
+text-transform:uppercase;
+text-align:center;
 }
 
 p{
 	font-family:arial;
 	color:blue;
-	font-size:20px;
+   font-size:10px;
+   text-transform:lowercase;
+   text-align:center;
+
+	}
 
 
 *{
 box-sizing:borderbox;
+color:brown;
 
 </style>
 </head>
 <body>
 
 <h1>Our menu</h1>
-<h2>Chicken</h2>
-<p>Our chicken noodle soup is a varm treat with meat from free ranged birds.</p>
-<h3>Beef</h3>
+
+<div class:"col-lg-3"><h2>Chicken</h2>
+<p>Our chicken noodle soup is a varm treat with meat from free ranged birds.</p></div>
+<div class:"col-lg-3"><h3>Beef</h3></div>
 <p>If you are feeling a meaty dish, this beef noodel meal is a great choice with meat from a small scale farmer.</p>
-<h4>Vegetarian</h4>
-<p>Fresh ecological veggies with steaming hot noodles.</p>
+<div class:"col-lg-3"><h4>Vegetarian</h4>
+<p>Fresh ecological veggies with steaming hot noodles.</p></div>
 </body>
